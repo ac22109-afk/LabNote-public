@@ -1,0 +1,17 @@
+name: Verify public source
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python check_public.py
+      - run: python -m unittest discover -s tests -p "test*.py" -q
+      - run: python -m unittest discover -s fileclient -t . -p "test*.py" -q

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "mode": "development",
+  "store_id": "00000000-0000-4000-8000-000000000001",
+  "windows_path": "C:/LabNote-demo/data",
+  "mac_path": "/tmp/labnote-demo/data"
+}

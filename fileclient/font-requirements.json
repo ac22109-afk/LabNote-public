@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "fonts": [
+    {
+      "name": "Arial",
+      "aliases": [
+        "Arial"
+      ],
+      "purpose": "英数字（選択肢）",
+      "future": false
+    },
+    {
+      "name": "Times New Roman",
+      "aliases": [
+        "Times New Roman"
+      ],
+      "purpose": "英数字（選択肢）",
+      "future": false
+    },
+    {
+      "name": "MS 明朝",
+      "aliases": [
+        "MS Mincho",
+        "ＭＳ 明朝"
+      ],
+      "purpose": "日本語（選択肢）",
+      "future": false
+    },
+    {
+      "name": "MS Pゴシック",
+      "aliases": [
+        "MS PGothic",
+        "ＭＳ Ｐゴシック"
+      ],
+      "purpose": "日本語（選択肢）",
+      "future": false
+    },
+    {
+      "name": "Symbol",
+      "aliases": [
+        "Symbol"
+      ],
+      "purpose": "ギリシャ文字（軸名で指定したとき）",
+      "future": false
+    }
+  ]
+}
